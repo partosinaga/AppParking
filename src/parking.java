@@ -11,7 +11,7 @@ public class parking {
         long car_rate = 4000;
         long bus_rate = 6000;
         long mtrcy_rate = 2000;
-        String timeIn, timeOut;
+        String timeIn, timeOut
         boolean quit = false;
         Date ti = null;
         Date to = null;
