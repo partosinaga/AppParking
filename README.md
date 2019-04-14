@@ -1,5 +1,5 @@
 # AppParking
-A simple parking application in Java Native
+A simple parking application in Java Native.
 
 # Scoop:
 1. Time calculation only in the same day
