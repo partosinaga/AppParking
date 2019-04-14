@@ -11,7 +11,7 @@ public class parking {
         long car_rate = 4000;
         long bus_rate = 6000;
         long mtrcy_rate = 2000;
-        String timeIn, timeOut
+        String timeIn, timeOut;
         boolean quit = false;
         Date ti = null;
         Date to = null;
@@ -138,15 +138,17 @@ public class parking {
                     System.out.println("======TERIMA KASIH======");
                     System.out.println("");
             }
-
-            System.out.println("Lanjut?");
-            System.out.println("(1) YES");
-            System.out.println("(2) NO");
-            cont = input.nextInt();
-            if (cont != 1) {
-                System.exit(0);
+            if(jkend != 4){
+                System.out.println("Lanjut?");
+                System.out.println("(1) YES");
+                System.out.println("(2) NO");
+                cont = input.nextInt();
+                if (cont != 1) {
+                    System.exit(0);
+                }
+                System.out.println("");
             }
-            System.out.println("");
+
 
         }
         while (!quit);
