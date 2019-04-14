@@ -138,7 +138,7 @@ public class parking {
                     System.out.println("======TERIMA KASIH======");
                     System.out.println("");
             }
-            if(jkend != 4){
+            if(jkend != 4){//dijalankan kalau pilihan menu bukan 4. exit.
                 System.out.println("Lanjut?");
                 System.out.println("(1) YES");
                 System.out.println("(2) NO");
